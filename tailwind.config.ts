@@ -52,6 +52,26 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				sunny: {
+					DEFAULT: 'hsl(var(--sunny))',
+					foreground: 'hsl(var(--sunny-foreground))'
+				},
+				cloudy: {
+					DEFAULT: 'hsl(var(--cloudy))',
+					foreground: 'hsl(var(--cloudy-foreground))'
+				},
+				rainy: {
+					DEFAULT: 'hsl(var(--rainy))',
+					foreground: 'hsl(var(--rainy-foreground))'
+				},
+				stormy: {
+					DEFAULT: 'hsl(var(--stormy))',
+					foreground: 'hsl(var(--stormy-foreground))'
+				},
+				snowy: {
+					DEFAULT: 'hsl(var(--snowy))',
+					foreground: 'hsl(var(--snowy-foreground))'
+				},
 				luxury: {
 					DEFAULT: 'hsl(var(--luxury))',
 					foreground: 'hsl(var(--luxury-foreground))'

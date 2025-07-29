@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 220 17% 97%;
     --foreground: 220 15% 15%;
 
     --card: 0 0% 100%;
@@ -17,40 +17,58 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 216 90% 58%;
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 17% 95%;
+    --secondary: 220 15% 96%;
     --secondary-foreground: 220 15% 15%;
 
-    --muted: 210 17% 95%;
+    --muted: 220 15% 96%;
     --muted-foreground: 220 10% 46%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 220 15% 96%;
+    --accent-foreground: 220 15% 15%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 216 90% 58%;
+    --ring: 217 91% 60%;
 
-    /* Real Estate specific colors */
-    --luxury: 45 100% 51%;
-    --luxury-foreground: 220 15% 15%;
+    /* Weather specific colors */
+    --sunny: 45 100% 60%;
+    --sunny-foreground: 220 15% 15%;
     
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 100%;
+    --cloudy: 220 14% 70%;
+    --cloudy-foreground: 220 15% 15%;
+    
+    --rainy: 217 91% 60%;
+    --rainy-foreground: 0 0% 100%;
+    
+    --stormy: 240 60% 30%;
+    --stormy-foreground: 0 0% 100%;
+    
+    --snowy: 200 20% 90%;
+    --snowy-foreground: 220 15% 15%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(216 90% 58%), hsl(216 90% 68%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 17% 98%));
-    
-    /* Shadows */
-    --shadow-luxury: 0 10px 30px -5px hsl(216 90% 58% / 0.2);
-    --shadow-card: 0 4px 20px -2px hsl(220 15% 15% / 0.1);
-    --shadow-hover: 0 8px 30px -5px hsl(220 15% 15% / 0.15);
+    /* Weather gradients */
+    --gradient-sunny: linear-gradient(135deg, hsl(45 100% 60%), hsl(30 100% 70%));
+    --gradient-cloudy: linear-gradient(135deg, hsl(220 14% 70%), hsl(220 14% 80%));
+    --gradient-rainy: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 40%));
+    --gradient-stormy: linear-gradient(135deg, hsl(240 60% 30%), hsl(240 60% 20%));
+    --gradient-snowy: linear-gradient(135deg, hsl(200 20% 90%), hsl(200 20% 95%));
+    --gradient-default: linear-gradient(135deg, hsl(217 91% 60%), hsl(220 70% 50%));
+
+    /* Glass effects */
+    --glass-bg: rgba(255, 255, 255, 0.25);
+    --glass-border: rgba(255, 255, 255, 0.18);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+    /* Animation */
+    --transition-weather: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
 
     --radius: 0.5rem;
 
